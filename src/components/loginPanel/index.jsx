@@ -1,11 +1,15 @@
 import {React, Component} from 'react';
-
-const PanelContext = React.createContext('Foo');
+import Panel from 'reactstrap';
 
 export default class LoginPanel extends Component {
-    constructor(this.props) {
-        super(props)
+    constructor() {
         this.state = [];
+    }
+
+    render() {
+        <Panel>
+
+        </Panel>
     }
 
 
